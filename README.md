@@ -3,7 +3,7 @@
 # REST- API FULL 
 Kumpulan database semua fitur yang ada di restapifull
 
-Jika mau berkontribusi silak di edit add fitur apa aja pasti saya ACC :)
+Jika mau berkontribusi silahkan langsung di edit add fitur apa aja pasti saya ACC :)
 <p align="center">
 </p>
 <p align="center">

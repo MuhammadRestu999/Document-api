@@ -25,24 +25,12 @@ await fetchJson(`https://restapifull-by-rey.herokuapp.com/api/anime/minato?apike
 await fetchJson(`https://raw.githubusercontent.com/inirey/Document-api/main/minato.json`)
 ```
 ## Client settings
-Atur di case bot WhatsApp mu
 
 ```js
-anu = await fetchJson(`https://restapifull-by-rey.herokuapp.com/api/anime/minato?&Apikey=administrator`, {method: 'get'})
-min = JSON.parse(JSON.stringify(anu));
+rey = await fetchJson(`https://restapifull-by-rey.herokuapp.com/api/anime/minato?&Apikey=administrator`, {method: 'get'})
+min = JSON.parse(JSON.stringify(rey));
 ato =  min[Math.floor(Math.random() * min.length)];
-nye = await getBuffer(ato)
-rey.sendMessage(from, nye, image, { caption: 'minato!!', quoted: mek })
-```
-</p>
-
-Atau juga bisa
-
-```js
-anu = await fetchJson(`https://raw.githubusercontent.com/inirey/Document-api/main/minato.json`, {method: 'get'})
-min = JSON.parse(JSON.stringify(anu));
-ato =  min[Math.floor(Math.random() * min.length)];
-nye = await getBuffer(ato)
-rey.sendMessage(from, nye, image, { caption: 'minato!!', quoted: mek })
+hasil = await getBuffer(ato)
+client.sendMessage(from, hasil, image, { caption: 'anime Minato', quoted: mek })
 ```
 </p>

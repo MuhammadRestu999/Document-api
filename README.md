@@ -1,7 +1,7 @@
 
  
 # REST- API FULL 
-Kumpulan database semua fitur yang ada di restapifull
+results rest API
 
 Jika mau berkontribusi silahkan langsung di edit add fitur apa aja pasti saya ACC :)
 <p align="center">
@@ -17,14 +17,14 @@ Jika mau berkontribusi silahkan langsung di edit add fitur apa aja pasti saya AC
 </p>
 
 ## main REST- API
-Check it [Here](https://restapifull-by-rey.herokuapp.com/api)
+Check it [Here](http://api.reysekha.xyz/api)
 
 
 ## Endopoint?
 Pengambilan Endopoint
 ```js
-await fetchJson(`https://restapifull-by-rey.herokuapp.com/api/anime/minato?apikey=administrator`, {method: 'get'})
-await fetchJson(`https://raw.githubusercontent.com/inirey/Document-api/main/minato.json`)
+await fetchJson(`http://api.reysekha.xyz/doraemon.php`)
+await fetchJson(`https://raw.githubusercontent.com/inirey/Document-api/main/doraemon.json`)
 ```
 ## Client settings
 

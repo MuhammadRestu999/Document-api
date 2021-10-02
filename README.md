@@ -2,4 +2,4 @@
  
 # Document-api
 
-Monngo di jajal matur nuwun
+Monggo lur di jajal matur nuwun
